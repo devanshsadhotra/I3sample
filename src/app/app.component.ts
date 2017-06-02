@@ -46,6 +46,6 @@ export class MyApp {
     // close the menu when clicking a link from the menu
     this.menu.close();
     // navigate to the new page if it is not the current page
-    this.nav.setRoot(HelloIonicPage);
+    this.nav.setRoot(page.component);
   }
 }
